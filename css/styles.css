@@ -74,7 +74,7 @@ body {
 }
 
 .advantages-list,
-.what-are-we-doing-list {
+.what-are-we-doing-list .our-team-list {
     list-style: none;
     display: flex;
     gap: 24px;
@@ -161,8 +161,7 @@ body {
     width: calc((100%-72px)/4);
 }
 
-.advantages-card-header,
-.our-team-list-item-header {
+.advantages-card-header {
     color: var(--navy-blue);
     font-weight: 500;
     font-size: 20px;
@@ -172,8 +171,7 @@ body {
     margin-bottom: 8px;
 }
 
-.advantages-card-paragraph,
-.our-team-list-item-paragraph {
+.advantages-card-paragraph {
     color: var(--slate);
     font-weight: 400;
     font-size: 16px;
@@ -202,6 +200,7 @@ body {
 
 .our-team {
     background-color: var(--cloud);
+    padding: 120px 0;
 }
 
 .our-team-header {
@@ -211,10 +210,36 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--navy-blue);
+    margin-bottom: 72px;
 }
 
 .our-team-list-item {
     background-color: var(--white);
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-list-item-description {
+    padding: 32px 0px;
+}
+
+.our-team-list-item-header {
+    color: var(--navy-blue);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.our-team-list-item-paragraph {
+    color: var(--slate);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .footer {
