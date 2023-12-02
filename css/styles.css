@@ -74,7 +74,8 @@ body {
 }
 
 .advantages-list,
-.what-are-we-doing-list .our-team-list {
+.what-are-we-doing-list,
+.our-team-list {
     list-style: none;
     display: flex;
     gap: 24px;
