@@ -264,6 +264,18 @@ body {
 
 /* Portfolio */
 
+.portfolio-filtr-section {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.portfolio-filtr-button-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
 .portfolio-filtr-button {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -273,16 +285,21 @@ body {
     color: var(--iris);
     background-color: var(--cloud);
     cursor: pointer;
+    padding: 12px 24px;
+    border: 1px solid var(--cornflower);
+    border-radius: 4px;
 }
 
 .portfolio-filtr-button:hover {
     background-color: var(--ocean);
     color: var(--white);
+    border: 1px solid transparent;
 }
 
 .portfolio-filtr-button:focus {
     background-color: var(--ocean);
     color: var(--white);
+    border: 1px solid transparent;
 }
 
 .portfolio-list-item-header {
