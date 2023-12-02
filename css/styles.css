@@ -20,6 +20,25 @@ body {
     background-color: var(--white);
 }
 
+.header {
+    border-bottom: 1px solid var(--cornflower);
+}
+
+.header-main-cointainer {
+    display: flex;
+}
+
+.cointainer {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0.15px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -29,6 +48,7 @@ body {
     text-transform: uppercase;
     color: var(--iris);
     text-decoration: none;
+    margin-right: 76px;
 }
 
 .link {
@@ -49,6 +69,8 @@ body {
 
 .list {
     list-style: none;
+    display: flex;
+    gap: 40px;
 }
 
 .list-link {
@@ -57,6 +79,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+    padding: 24px 0;
 }
 
 .address-component {
