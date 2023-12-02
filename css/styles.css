@@ -306,10 +306,11 @@ body {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    display: flex;
 }
 
 .portfolio-list-item-image {
-    width: calc((100% - 48px) / 3)
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-list-item-description {
