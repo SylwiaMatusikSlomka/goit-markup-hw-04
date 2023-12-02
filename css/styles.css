@@ -274,6 +274,7 @@ body {
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
+    list-style-type: none;
 }
 
 .portfolio-filtr-button {
@@ -307,6 +308,7 @@ body {
     column-gap: 24px;
     row-gap: 48px;
     display: flex;
+    list-style-type: none;
 }
 
 .portfolio-list-item-image {
