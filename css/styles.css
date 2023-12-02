@@ -53,6 +53,8 @@ body {
 
 .link {
     text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .link:hover {
@@ -245,6 +247,7 @@ body {
 
 .footer {
     background-color: var(--navy-blue);
+    padding: 100px 0;
 }
 
 .logo-footer-span {
@@ -255,6 +258,7 @@ body {
     color: var(--cloud);
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 
 
