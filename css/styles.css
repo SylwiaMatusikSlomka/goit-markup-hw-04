@@ -144,11 +144,11 @@ body {
 }
 
 .advantages-header {
-    visibility: hidden;
+    display: none;
 }
 
 .advantages-list-item {
-    width: calc((100%-72px/4));
+    width: calc((100%-72px)/4);
 }
 
 .advantages-card-header,
