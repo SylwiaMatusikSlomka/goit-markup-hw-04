@@ -143,8 +143,8 @@ body {
     padding: 120px 0;
 }
 
-.advantages-header {
-    visibility: hidden;
+.visually-hidden {
+    display: none;
 }
 
 .advantages-list-item {
