@@ -311,7 +311,7 @@ body {
     list-style-type: none;
 }
 
-.portfolio-list-item-image {
+.portfolio-list-item-element {
     width: calc((100% - 48px) / 3);
 }
 
