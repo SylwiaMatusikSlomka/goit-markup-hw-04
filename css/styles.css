@@ -60,7 +60,6 @@ body {
 .link {
     text-decoration: none;
     display: inline-block;
-    /* margin-bottom: 16px; */
 }
 
 .link:hover {
@@ -271,6 +270,10 @@ body {
 .footer {
     background-color: var(--navy-blue);
     padding: 100px 0;
+}
+
+.footer-link {
+    margin-bottom: 16px;
 }
 
 .logo-footer-span {
