@@ -242,8 +242,7 @@ body {
 }
 
 .our-team-list-item-img {
-    width: 264px;
-    height: 260px;
+    width: 100%;
 }
 
 .our-team-list-item-description {
