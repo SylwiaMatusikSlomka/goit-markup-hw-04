@@ -197,11 +197,10 @@ body {
     margin-bottom: 8px;
 }
 
-
-/* .advantages-card-icon-container {
-    width: 64px;
-    height: 64px;
-} */
+.advantages-card-icon-container {
+    width: 64;
+    height: 64;
+}
 
 .advantages-card-header {
     color: var(--navy-blue);
