@@ -187,6 +187,21 @@ body {
     width: calc((100%-72px) / 4);
 }
 
+.advantages-card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: var(--cloud);
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.advantages-card-icon-container {
+    width: 64px;
+    height: 64px;
+}
+
 .advantages-card-header {
     color: var(--navy-blue);
     font-weight: 500;
