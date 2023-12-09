@@ -416,11 +416,8 @@ body {
     justify-content: center;
 }
 
-.footer-social-media-list-item:hover {
-    background-color: var(--green);
-}
-
-.social-media-list-item:focus {
+.footer-social-media-list-item:hover,
+.footer-social-media-list-item:focus {
     background-color: var(--green);
 }
 
