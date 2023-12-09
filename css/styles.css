@@ -283,6 +283,40 @@ body {
     text-align: center;
 }
 
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.social-media-list {
+    width: 40px;
+    height: 40px;
+    list-style-type: none;
+}
+
+.social-media-list-item {
+    width: 100%;
+    height: 100%;
+    background-color: var(--iris);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media-list-item:hover {
+    background-color: var(--ocean);
+}
+
+.social-media-list-item:focus {
+    background-color: var(--ocean);
+}
+
+.social-media-list-item-icon {
+    fill: var(--cloud);
+}
+
 .footer {
     background-color: var(--navy-blue);
     padding: 100px 0;
