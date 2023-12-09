@@ -23,6 +23,9 @@ body {
     color: var(--slate);
     text-decoration: none;
     background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
 
 .header {
@@ -120,6 +123,7 @@ body {
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0 auto;
 }
 
 .main-heading-container {
@@ -293,6 +297,7 @@ body {
     width: 40px;
     height: 40px;
     list-style-type: none;
+    margin-top: 8px;
 }
 
 .social-media-list-item {
