@@ -366,6 +366,15 @@ body {
     padding: 100px 0;
 }
 
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-container-logo {
+    margin-right: 120px;
+}
+
 .footer-link {
     margin-bottom: 16px;
 }
@@ -379,6 +388,44 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
+}
+
+.footer-container-social-media {}
+
+.footer-social-media-header {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--white);
+    margin-bottom: 16px;
+}
+
+.footer-social-media-list {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-social-media-list-item {
+    width: 40px;
+    height: 40px;
+    background-color: var(--iris);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-social-media-list-item:hover {
+    background-color: var(--green);
+}
+
+.social-media-list-item:focus {
+    background-color: var(--green);
+}
+
+.footer-social-media-list-item-icon {
+    fill: var(--cloud);
 }
 
 
