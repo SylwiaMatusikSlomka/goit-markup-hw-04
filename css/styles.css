@@ -114,6 +114,8 @@ body {
 .main-heading {
     background-color: var(--navy-blue);
     padding: 188px 0;
+    background-image: url('../images/people-office.jpg');
+    background-size: cover;
 }
 
 .main-heading-container {
